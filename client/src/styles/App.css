@@ -1,6 +1,72 @@
 * {
-  background-color: #FFFCF0;
   color: #446389;
   text-align: center;
   margin: 0 auto;
+}
+
+.App {
+  background-color: #fffae6;
+}
+
+.Header {
+  background-color: rgb(244, 181, 202);
+  height: 100vh;
+}
+
+#header_logo {
+  width: 25%;
+  padding-top: 10vh;
+}
+
+.Header h1 {
+  color: #FFFCF0;
+  font-size: 48px;
+}
+
+.Section {
+  min-height: 100vh;
+}
+
+.Section h1 {
+  color: rgb(244, 181, 202);
+  font-size: 36px;
+  padding: 20px;
+}
+
+.Section h2 {
+  padding: 20px;
+}
+
+.Section p {
+  padding: 20px;
+  width: 75%;
+  font-size: 18px;
+}
+
+#headshot {
+  width: 25%;
+  padding: 20px;
+}
+
+.gallery_container {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery_card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(244, 181, 202);
+  margin: 20px auto;
+}
+
+.gallery_card img {
+  width: 350px;
+  padding: 10px;
+}
+
+.gallery_card h3 {
+  font-size: 24px;
+  color: #FFFCF0;
 }
