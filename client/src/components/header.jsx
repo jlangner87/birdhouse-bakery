@@ -1,10 +1,12 @@
-import logo from "../assets/hero.png"
+import hero from "../assets/hero.png"
 
 function Header() {
   return (
     <div className="Header">
-      <img src={logo} id="header_logo"/>
-      <h1>Birdhouse Bakery</h1>
+      <div className="title-container">
+        <img src={hero} className="hero-img"/>
+        <h1>Birdhouse Bakery</h1>
+      </div>
     </div>
   )
 }

@@ -1,36 +1,56 @@
+@font-face {
+  font-family: morning-star;
+  src: url('../assets/Morning\ Star.ttf');
+}
+
 * {
-  color: #446389;
   text-align: center;
   margin: 0 auto;
+  /* overflow-y: hidden; */
+  color: #2f241d;
 }
 
-.App {
-  background-color: #fffae6;
+body {
+  background-image: url('../assets/backsplash.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
+
 
 .Header {
-  background-color: rgb(244, 181, 202);
+  background-color: rgb(212, 217, 184, .8);
   height: 100vh;
 }
 
-#header_logo {
-  width: 25%;
-  padding-top: 10vh;
+.title-container {
+  width: fit-content ;
 }
 
-.Header h1 {
-  color: #FFFCF0;
-  font-size: 48px;
+.hero-img {
+  width: 100%;
+  margin: 10px auto 20px auto;
+}
+
+.title-container h1 {
+  color: #d8572e;
+  font-size: 86px;
+  font-family: morning-star;
+  padding: 10px;
 }
 
 .Section {
   min-height: 100vh;
+  background-color: rgb(245, 238, 218, .9);
 }
 
 .Section h1 {
-  color: rgb(244, 181, 202);
+  color: #d8572e;
+  letter-spacing: 3px;
+  font-family: morning-star;
   font-size: 36px;
-  padding: 20px;
+  padding-top: 40px;
 }
 
 .Section h2 {
@@ -56,14 +76,17 @@
 .gallery_card {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  background-color: rgb(244, 181, 202);
+  padding: 10px;
+  background-color: rgb(212, 217, 184);
   margin: 20px auto;
+  border-radius: 12px;
+  border: 1px solid rgb(188, 192, 165)
 }
 
 .gallery_card img {
   width: 350px;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 12px;
 }
 
 .gallery_card h3 {
