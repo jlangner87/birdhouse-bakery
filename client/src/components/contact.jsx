@@ -1,8 +1,9 @@
+import Form from "./form"
 function Contact() {
   return (
     <div className="Section">
-      <h1>This is the contact section</h1>
-      <p>Contact Form Component here</p>
+      <h1>Lets work Together</h1>
+      <Form />
     </div>
   )
 }
