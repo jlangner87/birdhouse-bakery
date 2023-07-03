@@ -5,6 +5,7 @@ function Header() {
     <div className="Header">
       <img src={hero} className="hero-img"/>
       <h1>Birdhouse Bakery</h1>
+      <a className="enter-link" href="#top">ENTER</a>
     </div>
   )
 }

@@ -1,8 +1,12 @@
 import Form from "./form"
+import flourish from "../assets/flourishes/flourish2.png"
+
 function Contact() {
   return (
     <div className="Section">
-      <h1>Lets work Together</h1>
+      <h1>Contact Birdhouse Bakery</h1>
+      <h2>Let's work Together</h2>
+      <img src={flourish} className="flourish"/>
       <Form />
     </div>
   )
