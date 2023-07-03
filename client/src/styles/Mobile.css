@@ -1,0 +1,137 @@
+@media only screen and (max-width: 580px){    
+  body {
+    /* background-image: design new; */
+  }
+  
+  .Header {
+    height: 100vh;
+  }
+  
+  .hero-img {
+    width: 70%;
+    margin: 20vh auto 0 auto;
+  }
+  
+  .Header h1 {
+    font-size: 48px;
+    padding: 5px;
+    margin-bottom: 5vh;
+  }
+  
+  .enter-link {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .Section {
+    padding-bottom: 2.5em;
+  }
+  
+  .Section h1 {
+    font-size: 28px;
+    padding-top: .75em;
+  }
+  
+  .Section h2 {
+    padding-top: 2.5px;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .flourish {
+    width: 70%;
+    padding-bottom: .75em;
+  }
+
+  .Section p {
+    padding-top: 10px;
+    width: 85%;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  
+  /* #headshot {
+    width: 25%;
+    padding: 20px;
+  } */
+  
+  .gallery_container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gallery_card {
+    width: 90%;
+    padding: 5px;
+    margin: 15px auto 15px auto;
+  }
+  
+  .gallery_card img {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* .gallery_card h3 {
+    font-size: 24px;
+    color: #FFFCF0;
+  } */
+  
+  /* Contact Form  */
+
+  
+  .contact-message-header {
+    font-size: 48px;
+    margin-top: -40px;
+  }
+  
+  .contact-message-content {
+    color: #2f241d;
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: .75em;
+  }
+  .f-element {
+    padding: 10px;
+  }
+  #f-contact {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .f-element h5 {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .f-hero {
+    width: 50%;
+  }
+  
+  .f-title {
+    font-size: 36px;
+  }
+  
+  .Footer h3 {
+    font-size: 14px;
+  }
+  
+  .dev-logo {
+    max-width: 40%;
+    margin: -22px auto -10px auto;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    margin-bottom: -5px;
+  }
+  
+  .Footer a {
+    font-size: 12px;
+  }
+}
