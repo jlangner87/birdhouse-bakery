@@ -50,7 +50,7 @@ function Form() {
       <div className="row">
         <div className="col-md-5 mr-auto">
           <h3 className="contact-message-header">A note from Robin</h3>
-          <p className="contact-message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sequi, ipsa hic alias officia facilis eveniet, neque laborum cumque maxime soluta. Neque atque necessitatibus ipsam sequi soluta magni, iste vero fuga inventore, explicabo totam quis quia nemo possimus cupiditate doloribus?</p>
+          <p className="contact-message-content">Thank you from the bottom of my heart for taking the time to visit my website! Your interest and support mean the world to me. I am happy to have the opportunity to connect with each and every one of you. It is the wonderful people I bake for who inspire me to create and innovate my tasty treats. Please feel free to reach out to me anytime; I am eager to make your day a little sweeter.</p>
         </div>
 
         <div className="col-md-6">
