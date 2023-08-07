@@ -6,7 +6,7 @@ function Contact() {
     <div className="Section">
       <h1>Contact Birdhouse Bakery</h1>
       <h2>Let's work Together</h2>
-      <img src={flourish} className="flourish"/>
+      <img src={flourish} className="flourish" alt="decorative"/>
       <Form />
     </div>
   )
