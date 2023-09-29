@@ -8,7 +8,7 @@ function Footer() {
         <h3 id="f-contact">Contact</h3>
         <h5>Robin Kruse</h5>
         <h5>birdhousebakery.rk@gmail.com</h5>
-        <h5>(691)241-5289</h5>
+        <h5>(619)241-5289</h5>
       </div>
       <div className="f-element">
         <img className="f-hero" src={footerLogo} alt="Logo: Birdhouse Bakery" />
